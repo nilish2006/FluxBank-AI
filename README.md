@@ -1,4 +1,5 @@
 # FluxBank - AI-Powered Intelligent Cross-Sell Agent
+<img width="959" height="511" alt="Screenshot 2026-09-18 211952" src="https://github.com/user-attachments/assets/859980f2-8cf9-4025-bd70-29076fbc5515" />
 
 FluxBank is an AI-powered banking dashboard that analyzes customer transaction profiles, financial health, risk tiers, and customer dialogue intent to recommend personalized, policy-compliant banking products.
 
