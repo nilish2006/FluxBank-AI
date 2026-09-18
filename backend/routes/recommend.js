@@ -36,7 +36,7 @@ function generateRuleBasedFallback(customer) {
         product = "Investment Plan";
         confidence = 89.5;
     } else if (credit >= 740) {
-        product = "Premium Credit Card";
+        product = "Premium credit Card";
         confidence = 92.0;
     }
 
@@ -49,7 +49,7 @@ function generateRuleBasedFallback(customer) {
     const reasons = complianceNotes.slice();
     if (product === "Home Loan") reasons.push("Property inquiries indicate home purchase readiness");
     else if (product === "Car Loan") reasons.push("Frequent auto-related transactions indicate vehicle financing intent");
-    else if (product === "Investment Plan") reasons.push("Liquidity reserves and portfolio transactions support wealth management");
+    else if (product === "Investment plan") reasons.push("Liquidity reserves and portfolio transactions support wealth management");
     else if (product === "Premium Credit Card") reasons.push("Prime credit score qualifies for top-tier travel and cashback privileges");
     else reasons.push("Flexible liquidity structure aligns with current expenditure profile");
 
